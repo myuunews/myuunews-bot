@@ -1,12 +1,12 @@
-yoppinews-bot
+myuunews-bot
 ===============
 
 
-[![CircleCI](https://circleci.com/gh/yoppinews/yoppinews-bot/tree/develop.svg?style=svg)](https://circleci.com/gh/yoppinews/yoppinews-bot/tree/develop)
+[![CircleCI](https://circleci.com/gh/myuunews/myuunews-bot/tree/develop.svg?style=svg)](https://circleci.com/gh/myuunews/myuunews-bot/tree/develop)
 
-[@yoppinews](https://twitter.com/yoppinews) にて使われている関連ツイート検出 bot エンジン
+[@myuunews](https://twitter.com/myuunews) にて使われている関連ツイート検出 bot エンジン
 
-# yoppinews-bot とは
+# myuunews-bot とは
 
 - 設定ファイルに指定された Twitter リストを毎分巡回し、以下のような条件にマッチするツイートをリツイートします
   - 設定ファイルにて指定したキーワードを含むツイート
@@ -28,7 +28,7 @@ yoppinews-bot
 ## 1. リポジトリのクローンと設定ファイルの作成
 
 - `git clone`
-- `cd yoppinews-bot`
+- `cd myuunews-bot`
 - `cp .env.template .env.{dev|prod}`
 
 ## 2. 環境変数ファイルの更新
